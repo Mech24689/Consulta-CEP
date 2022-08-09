@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background: linear-gradient(45deg, rgb(43, 202, 241), rgb(67, 207, 39), rgb(255, 115, 0));
+    height: 100vh;
+    width: 100vw;
+}
+
+.container{
+    background: rgba(255, 255, 255, 0.404);
+    position: relative;
+    margin: 50px auto 0;
+    padding: 0 15px 0 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px 1px black;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 450px;
+    height: 550px;
+}
+
+input{
+    padding-left: 10px;
+    outline: 0;
+    color: #fff;
+    text-shadow: 2px 1px 4px black;
+    background: linear-gradient(to right, rgb(238, 132, 10), rgb(255, 178, 35), rgb(236, 176, 9));
+    border-radius: 5px;
+    border: 1px solid gray;
+    box-shadow: 0px 0px 10px 1px black;
+    font-size: 20px;
+    height: 40px;
+    transition: 800ms;
+}
+
+input::placeholder{
+    color: rgb(184, 184, 184);
+    text-shadow: 2px 1px 4px black;
+}
+
+input:hover, input:focus{
+    border: none;
+    box-shadow: 0px 0px 10px 5px rgb(0, 255, 242),
+    inset 0px 0px 10px 2px rgb(0, 255, 242);
+}
+
+@media (max-width: 500px) and (max-height: 1100px) {
+
+    html{
+        height: 100%;
+        width: 100%;
+    }
+
+    .container{
+        width: 80vw;
+        height: 70vh;
+        margin-top: 90px;
+    }
+}
