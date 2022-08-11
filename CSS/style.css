@@ -38,6 +38,10 @@ input{
     transition: 800ms;
 }
 
+input[type=number]::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+
 input::placeholder{
     color: rgb(184, 184, 184);
     text-shadow: 2px 1px 4px black;
