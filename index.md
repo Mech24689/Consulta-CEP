@@ -10,7 +10,7 @@
 </head>
 <body>
     <div class="container">
-        <input type="text" id="cep" placeholder="Cep" maxlength="8">
+        <input type="number" id="cep" placeholder="Cep" maxlength="8">
         <input type="text" id="logradouro" placeholder="Logradouro">
         <input type="text" id="bairro" placeholder="Bairro">
         <input type="text" id="localidade" placeholder="Localidade">
